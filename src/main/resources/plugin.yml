@@ -1,0 +1,22 @@
+name: SpellsWar
+version: '${project.version}'
+main: org.ynovka.ru.spellswar.SpellsWar
+api-version: '1.20'
+authors: ['Ynovka', 'Lonam']
+description: "Это плагин разработанный Ynovka по идеи батл раяля придуманной Lonam"
+commands:
+  createlobby:
+    usage: /createlobby
+    description: Создаёт новый мир для начала игры!
+  startgame:
+    usage: /startgame <short|medium|long> <random|select>
+    description: Начинает игру в текущем мире!
+  join:
+    usage: /join <player_name>
+    description: Позволяет присоединиться к лобби.
+  stopgame:
+    usage: /stopgame
+    description: Останавливает игру.
+  hub:
+    usage: /hub
+    description: Возвращает игрока в хаб.
